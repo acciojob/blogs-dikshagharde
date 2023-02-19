@@ -1,3 +1,4 @@
+
 package com.driver.controller;
 
 import com.driver.models.User;
@@ -10,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/users")
 public class UserController {
-
     @Autowired
     UserService userService;
 
